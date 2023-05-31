@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Parser</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1>Search Result</h1>
+<ul>
+    {% for file in files %}
+    <li>{{ file }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>

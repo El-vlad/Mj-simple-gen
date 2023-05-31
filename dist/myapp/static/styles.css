@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf0e6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #8b4513;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+}
+
+#outputText {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    border: 2px solid #8b4513;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: left;
+    background-color: #fff;
+    color: #8b4513;
+    box-sizing: border-box;
+    resize: none;
+    overflow: hidden; /* Добавлено свойство overflow */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-3 {
+    margin-top: 20px;
+}
+
+.btn-animation {
+    animation: btnClickAnimation 0.5s ease-in-out;
+}
+
+@keyframes btnClickAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
