@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #faf0e6;
+    background-color: #202020;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    color: #8b4513;
+    color: #708090;
     margin-bottom: 20px;
 }
 
@@ -25,26 +25,26 @@ h1 {
 }
 
 .btn-orange {
-    background-color: orange;
-    color: white;
+    background-color: #FFA07A;
+    color: #202020;
 }
 
 .btn-blue {
-    background-color: blue;
-    color: white;
+    background-color: #B0C4DE;
+    color: #202020;
 }
 
 #outputText {
     width: 100%;
     height: auto;
     font-size: 16px;
-    border: 2px solid #8b4513;
+    border: 2px solid #708090;
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
     text-align: left;
-    background-color: #fff;
-    color: #8b4513;
+    background-color: #2F4F4F;
+    color: #D3D3D3;
     box-sizing: border-box;
     resize: none;
     overflow: hidden; /* Добавлено свойство overflow */
